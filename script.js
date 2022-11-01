@@ -20,7 +20,6 @@ $(".time-block").each(function(){
      }
 });
 
-
 $(".saveBtn").on("click", function(){
     var hourEvent = $(this).parent().find(".description").val();
     var hour = $(this).parent().attr("id").split("-")[1];
